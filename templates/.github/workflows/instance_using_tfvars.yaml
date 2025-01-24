@@ -10,6 +10,10 @@ on:
         description: 'Action to perform (apply/destroy)'
         required: true
 
+# permissions:
+#   id-token: write
+#   contents: read
+  
 env:
   AWS_ROLE_ARN: ${{ values.AWS_ROLE_ARN }}
 
